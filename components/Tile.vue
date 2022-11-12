@@ -50,6 +50,7 @@ const tile = defineProps<Tile>()
     -webkit-box-shadow: 8px 8px 24px -4px rgba(0, 0, 0, .3);
     -moz-box-shadow: 8px 8px 24px -4px rgba(0, 0, 0, .3);
     box-shadow: 8px 8px 24px -4px rgba(0, 0, 0, .3);
+    transition: transform 0.5s;
     
     &__image-wrapper {
       height: 100%;
@@ -92,6 +93,7 @@ const tile = defineProps<Tile>()
     }
 
     &:hover {
+      transform: scale(108%);
       .tile__title {
         transform: translateY(50%);
       }

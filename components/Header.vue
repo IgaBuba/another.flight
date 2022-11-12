@@ -54,13 +54,15 @@
     }
   }
 
-  .menu__item {
-
-  }
-
   .item__link {
     color: #ddd;
     padding: 0 10px;
     font-size: 19px;
+  }
+
+  .menu__item:last-child {
+    .item__link {
+      padding-right: 0;
+    }
   }
 </style>

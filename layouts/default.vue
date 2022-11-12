@@ -1,8 +1,9 @@
 <template>
   <div class="layout">
     <Header />
-  <slot></slot>
-</div>
+    <slot></slot>
+    <Footer />
+  </div>
 </template>
 
 <style lang="scss">

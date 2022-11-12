@@ -9,3 +9,9 @@ export interface Tile {
     alt: string;
   };
 };
+
+export interface Social {
+  icon: string;
+  alt: string;
+  url: string;
+};
