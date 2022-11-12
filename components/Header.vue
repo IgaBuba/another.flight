@@ -43,7 +43,7 @@
 
 <style lang="scss">
   .header {
-    background: #1b1f21;
+    background: #141618;
     padding: 20px 10%;
 
     &__menu {

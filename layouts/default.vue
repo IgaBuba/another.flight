@@ -21,7 +21,7 @@
   }
 
   body {
-    background-color: #2a2f33;
+    background-color: #08090a;
     color: #c0c0c0;
   }
 </style>

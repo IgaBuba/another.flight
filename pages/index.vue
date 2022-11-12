@@ -6,6 +6,7 @@ import type { Tile } from '../types/index';
       title: 'Liguria',
       daysCounter: 7,
       month: 6,
+      year: 2022,
       path: '/trips/liguria',
       image: {
         src: '/img/trips/thumbnails/liguria.jpg',
@@ -16,6 +17,7 @@ import type { Tile } from '../types/index';
       title: 'Liguria',
       daysCounter: 7,
       month: 6,
+      year: 2022,
       path: '/trips/liguria',
       image: {
         src: '/img/trips/thumbnails/liguria.jpg',
@@ -26,6 +28,7 @@ import type { Tile } from '../types/index';
       title: 'Liguria',
       daysCounter: 7,
       month: 6,
+      year: 2022,
       path: '/trips/liguria',
       image: {
         src: '/img/trips/thumbnails/liguria.jpg',
@@ -36,6 +39,7 @@ import type { Tile } from '../types/index';
       title: 'Liguria',
       daysCounter: 7,
       month: 6,
+      year: 2022,
       path: '/trips/liguria',
       image: {
         src: '/img/trips/thumbnails/liguria.jpg',
@@ -46,6 +50,7 @@ import type { Tile } from '../types/index';
       title: 'Liguria',
       daysCounter: 7,
       month: 6,
+      year: 2022,
       path: '/trips/liguria',
       image: {
         src: '/img/trips/thumbnails/liguria.jpg',

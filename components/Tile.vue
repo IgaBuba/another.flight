@@ -5,6 +5,7 @@ interface Tile {
   title: string;
   daysCounter: number;
   month: number;
+  year: number;
   path: string;
   image: {
     src: string;
@@ -32,7 +33,7 @@ const tile = defineProps<Tile>()
     <div class="tile__text-wrapper">
       <h3 class="tile__title">{{ tile.title }}</h3>
       <p class="tile__subtitle">
-        {{ tile.daysCounter }} days | {{ getMonthNameByNumber(tile.month) }}
+        {{ tile.daysCounter }} days | {{ getMonthNameByNumber(tile.month) }} {{ tile.year }}
       </p>
     </div>
   </nuxt-link>
